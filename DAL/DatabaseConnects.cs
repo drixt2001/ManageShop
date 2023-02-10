@@ -16,7 +16,7 @@ namespace DAL
 
         {
 
-            GetConnection = new SqlConnection("Data Source=DRIXT;Initial Catalog=GrabDataBase;Integrated Security=True");
+            GetConnection = new SqlConnection("Data Source=DRIXT\\DRIXTSQLSERVER;Initial Catalog=GrabDataBase;Integrated Security=True");
 
             GetConnection.Open();
 
